@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Leads Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Leads Tracker</h1>
+      <input
+        type="text"
+        id="input-el"
+        placeholder="Enter a URL or lead..."
+        aria-label="Lead input"
+      />
+      <div style="margin-bottom: 12px">
+        <button id="input-btn" aria-label="Save input">SAVE INPUT</button>
+        <button id="tab-btn" aria-label="Save current tab">SAVE TAB</button>
+        <button id="delete-btn" aria-label="Delete all leads">
+          DELETE ALL
+        </button>
+      </div>
+      <ul id="ul-el"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
